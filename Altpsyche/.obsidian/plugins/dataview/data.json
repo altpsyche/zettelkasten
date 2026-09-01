@@ -1,0 +1,15 @@
+{
+  "renderNullAs": "",
+  "warnOnEmptyResult": false,
+  "refreshEnabled": true,
+  "refreshInterval": 2500,
+  "defaultDateFormat": "yyyy-MM-dd",
+  "defaultDateTimeFormat": "yyyy-MM-dd HH:mm",
+  "maxRecursiveRenderDepth": 4,
+  "tableIdColumnName": "Note",
+  "enableDataviewJs": false,
+  "enableInlineDataviewJs": false,
+  "prettyRenderInlineFields": true,
+  "inlineQueryPrefix": "=",
+  "inlineJsQueryPrefix": "$="
+}

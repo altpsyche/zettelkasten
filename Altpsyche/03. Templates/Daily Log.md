@@ -1,19 +1,21 @@
 ---
 type: log
-date: {{date}}
+date: <% tp.date.now("YYYY-MM-DD", 0, tp.file.title, "YYYY-MM-DD") %>
 tags:
   - log
 ---
 
-# {{date}}
+# <% tp.date.now("YYYY-MM-DD", 0, tp.file.title, "YYYY-MM-DD") %>
 
 ## Log
-
+<% tp.file.cursor(1) %>
 
 ## Captured today
-<!-- link fleeting notes made today -->
-- 
+```dataview
+LIST FROM "00. Fleeting Notes" WHERE file.cday = date(<% tp.date.now("YYYY-MM-DD", 0, tp.file.title, "YYYY-MM-DD") %>)
+```
 
 ## Processed
-<!-- fleeting -> permanent promotions -->
-- 
+```dataview
+LIST FROM "04. Zettelkasten" WHERE file.cday = date(<% tp.date.now("YYYY-MM-DD", 0, tp.file.title, "YYYY-MM-DD") %>)
+```

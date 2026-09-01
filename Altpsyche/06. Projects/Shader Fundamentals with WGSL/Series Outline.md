@@ -35,9 +35,13 @@ The spine. What the series is, who it is for, and what order it teaches in.
 
 ## Chapters
 
-| # | Title | The one new idea | Status |
-|---|---|---|---|
-| 1 | [[01. WGSL on WebGPU]] |  | drafting |
+```dataview
+TABLE WITHOUT ID chapter AS "#", file.link AS Title, idea AS "The one new idea", status AS Status
+FROM "06. Projects/Shader Fundamentals with WGSL/Chapters"
+SORT chapter ASC
+```
+
+New chapter: command palette, *Templater: Create new note from template*, pick Chapter Draft.
 
 ## Order decisions
 <!-- why this sequence and not another. the reasoning outlives the list. -->

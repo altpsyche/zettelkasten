@@ -38,10 +38,15 @@ find     ->  02. Indexes            (MOC when a cluster gets too big to hold in 
 
 | Action | How |
 |---|---|
-| New permanent note | Command palette → *Create new unique note*. Gets a `YYYYMMDDHHmm` ID and the template. |
-| New fleeting note | Ctrl/Cmd+N. Lands in `00. Fleeting Notes` by default. |
-| New daily log | Command palette → *Open today's daily note* |
-| Insert a template | Command palette → *Insert template* |
+| New permanent note | Command palette → *Create new unique note*. Gets a `YYYYMMDDHHmm` ID. |
+| New fleeting note | Ctrl/Cmd+N. Lands in `00. Fleeting Notes`. |
+| New literature note | New file inside `01. Source Material`. |
+| New daily log | Command palette → *Open today's daily note*. |
+| New chapter | Command palette → *Templater: Create new note from template* → Chapter Draft. |
+
+Templater fills the template by folder, so the first four need no template command. Tab jumps between the fields it left for you.
+
+`04. Zettelkasten`, `01. Source Material` and `00. Fleeting Notes` each have a folder rule. `06. Projects` deliberately does not, because an outline and a chapter want different templates.
 
 IDs are timestamps and never change. **Titles can be renamed freely.** Obsidian rewrites links.
 

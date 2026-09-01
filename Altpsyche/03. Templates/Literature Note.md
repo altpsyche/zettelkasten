@@ -1,23 +1,23 @@
 ---
 type: literature
-created: {{date}}
-source:
-author:
-url:
+created: <% tp.date.now("YYYY-MM-DD") %>
+source: 
+author: 
+url: 
 status: reading
 tags:
   - source
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
-**Source:**
-**Author:**
-**Link:**
+**Source:** <% tp.file.cursor(1) %>
+**Author:** 
+**Link:** 
 
 ## Claims
-<!-- what the source actually argues. one bullet per claim. -->
--
+<!-- what the source actually argues. one bullet per claim. your words, not theirs. -->
+- 
 
 ## Quotes
 > 

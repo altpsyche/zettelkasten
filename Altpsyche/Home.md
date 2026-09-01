@@ -35,8 +35,30 @@ See [[Workflow]]. Short version: capture → process → link. Never skip link.
 <!-- add a line here for every MOC you create in 02. Indexes -->
 - 
 
+## Reading
+
+```dataview
+TABLE WITHOUT ID file.link AS Source, author AS Author, status AS Status
+FROM "01. Source Material"
+WHERE type = "literature"
+SORT status ASC
+```
+
 ## Health check
 
-Run occasionally:
-- Orphan notes in the graph → they failed the two-link rule. Fix or delete.
-- `00. Fleeting Notes` older than a week → process or bin them.
+Notes that broke rule 3. Fix or delete.
+
+```dataview
+TABLE WITHOUT ID file.link AS Note, length(file.outlinks) AS Links
+FROM "04. Zettelkasten"
+WHERE length(file.outlinks) < 2
+```
+
+Fleeting notes past their week. Promote or bin.
+
+```dataview
+TABLE WITHOUT ID file.link AS Note, file.cday AS Captured
+FROM "00. Fleeting Notes"
+WHERE file.cday <= date(today) - dur(7 days)
+SORT file.cday ASC
+```

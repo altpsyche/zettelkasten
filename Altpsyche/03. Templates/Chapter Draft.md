@@ -1,19 +1,21 @@
 ---
 type: project
-chapter: 
-created: {{date}}
+chapter: <% tp.system.prompt("Chapter number") %>
+idea: 
+created: <% tp.date.now("YYYY-MM-DD") %>
 status: drafting
 tags:
   - project
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
 Part of [[Series Outline]].
 
 ## The one new idea
-<!-- a chapter teaches one thing. if you cannot name it in a sentence, the chapter is two chapters. -->
-
+<!-- a chapter teaches one thing. if you cannot name it in a sentence, the chapter is two
+     chapters. copy the sentence into the `idea:` field so the outline table shows it. -->
+<% tp.file.cursor(1) %>
 
 ## Reader can do at the end
 
