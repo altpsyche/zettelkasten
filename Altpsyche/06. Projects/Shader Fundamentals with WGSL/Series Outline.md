@@ -13,7 +13,7 @@ tags:
 
 Teach modern shading techniques as a way to make art. One concept per chapter, and every chapter ends with a finished artwork built from that concept in WGSL.
 
-Published on altpsyche.dev, which runs a live WGSL playground. Readers edit and run every example in the page. No local setup, no renderer to build.
+Published on altpsyche.dev, which runs a live WGSL playground with storage buffer and compute pass support. Readers edit and run every example in the page, including the compute chapters. No local setup, no renderer to build.
 
 ## Who this is for
 
@@ -88,7 +88,7 @@ Raymarching is a different mental model and ships separately.
 ## Chapters written
 
 ```dataview
-TABLE WITHOUT ID chapter AS "#", file.link AS Title, idea AS "The one new idea", status AS Status
+TABLE WITHOUT ID chapter AS "#", file.link AS Title, idea AS "The one new idea", artwork AS Artwork, status AS Status
 FROM "06. Projects/Shader Fundamentals with WGSL/Chapters"
 SORT chapter ASC
 ```
@@ -97,13 +97,13 @@ New chapter: command palette, *Templater: Create new note from template*, pick C
 
 ## Order decisions
 
-- WebGPU gets an introduction only, no renderer setup. The altpsyche.dev playground is the host, so readers write shader code from chapter 1 with nothing to install. Cost: the playground has to keep working, and it is now a dependency of the series.
-- No maths chapter. Maths arrives per chapter, at the moment its technique needs it. Front-loading maths is where art-driven series lose the artists.
-- Compute is in, because GLSL readers came for the thing GLSL never gave them on the web. It sits at 9 and 10, after motion, because Turing patterns need it and make a payoff worth the setup.
-- Anti-aliasing is taught at the first edge, in chapter 4, rather than as its own chapter. It is a technique attached to drawing an edge, not a separate idea.
-- Chapter 3 ends on a radial gradient that is a distance field in all but name. Chapter 4 names it. The jump from one dimensional curves to reading a two dimensional field is the steepest seam in the first half, and this makes the new idea a label for something the reader already built.
-- Debugging lives in [[Debugging Shaders]] rather than in a chapter. Failure modes get written down while writing each chapter, and the page ships as an appendix.
-- 3D raymarching ships as series two. Chapters 1 to 10 are one coherent thing: patterns on a plane. Raymarching changes the mental model and deserves its own run.
+- WebGPU gets an introduction only, no renderer setup. The altpsyche.dev playground is the host, so readers write shader code with nothing to install.
+- No maths chapter. Maths arrives when its technique needs it. Front-loading maths loses the artists.
+- Compute is in at 12 and 13. GLSL readers came for it, and Turing patterns need it.
+- Anti-aliasing is taught at the first edge, chapter 4. Technique, not an idea.
+- Chapter 3 ends on a radial gradient. Chapter 4 names it a distance field. Softens the steepest seam.
+- Debugging lives in [[Debugging Shaders]], written while drafting, shipped as an appendix.
+- 3D raymarching is series two. Chapters 1 to 13 are patterns on a plane.
 
 ## Sources
 
@@ -116,7 +116,6 @@ SORT status ASC
 
 ## Open questions
 
-- Does the playground support storage buffers and compute passes today? Chapters 12 and 13 depend on it. Blocking.
 - Where do the GLSL comparisons live? Chapter 1 section, inline asides in every chapter, or an appendix. Inline serves them best and taxes the artists in every chapter.
 - Chapter 11 to 12 is the real cliff in this series. New mental model, new pipeline stage, new failure modes. Does 12 need to split into language and pipeline?
 - Turing patterns as compute is the plan. Worth checking it still works as a fragment shader, since that would drop 12 as a hard prerequisite for 13.

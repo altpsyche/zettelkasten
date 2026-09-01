@@ -2,6 +2,7 @@
 type: project
 chapter: <% tp.system.prompt("Chapter number") %>
 idea: 
+artwork: 
 created: <% tp.date.now("YYYY-MM-DD") %>
 status: drafting
 tags:
@@ -15,6 +16,10 @@ Part of [[Series Outline]].
 ## The one new idea
 <!-- one sentence. copy it into `idea:` above. -->
 <% tp.file.cursor(1) %>
+
+## Artwork
+<!-- the finished piece this chapter ends on. plan it with the idea, not after. -->
+
 
 ## Reader can do at the end
 
