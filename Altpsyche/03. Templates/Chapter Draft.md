@@ -13,8 +13,7 @@ tags:
 Part of [[Series Outline]].
 
 ## The one new idea
-<!-- a chapter teaches one thing. if you cannot name it in a sentence, the chapter is two
-     chapters. copy the sentence into the `idea:` field so the outline table shows it. -->
+<!-- one sentence. copy it into `idea:` above. -->
 <% tp.file.cursor(1) %>
 
 ## Reader can do at the end
@@ -24,29 +23,27 @@ Part of [[Series Outline]].
 
 
 ## Beats
-<!-- ordered teaching steps. each beat is one move. -->
+<!-- one move per beat -->
 1. 
 
 ## Working example
-<!-- the smallest program that runs and shows the idea. write this BEFORE the prose. -->
+<!-- smallest running program. write before the prose. -->
 
 
 ## Where readers will get stuck
-<!-- your own confusion, recorded while you still have it -->
+<!-- your own confusion, while you still have it -->
 - 
 
 ## Cut
-<!-- what you leave out on purpose, and where it goes instead -->
+<!-- left out on purpose, and where it goes -->
 - 
 
 ## Built on
-<!-- permanent notes this chapter arranges. if this is empty you are writing from scratch,
-     which is slower and usually worse. -->
+<!-- permanent notes this arranges -->
 - [[]] — 
 
 ## References
-<!-- where facts, code and claims came from. rule 4 applies: say why the link is here.
-     never maintain the reverse direction by hand, backlinks already show it on the source. -->
+<!-- sources. say why. -->
 - [[]] — 
 
 ## Draft

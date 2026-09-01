@@ -1,5 +1,6 @@
 ---
 type: literature
+medium: 
 created: <% tp.date.now("YYYY-MM-DD") %>
 source: 
 author: 
@@ -15,17 +16,22 @@ tags:
 **Author:** 
 **Link:** 
 
+## Background
+<!-- optional. timelines, numbers, terminology. delete heading if unused. -->
+
+
 ## Claims
-<!-- what the source actually argues. one bullet per claim. your words, not theirs. -->
+<!-- what the author argues. your words. -->
 - 
 
-## Quotes
+## Quotes and timestamps
+<!-- video: anchor as `[12:04] claim` -->
 > 
 
 ## My reading
-<!-- disagreement, connection, doubt. this part is yours, not the author's. -->
+<!-- yours, not theirs. zettels come from here. -->
 
 
 ## Extracted
-<!-- link each permanent note spawned from this source -->
+<!-- permanent notes spawned from this source -->
 - [[]]

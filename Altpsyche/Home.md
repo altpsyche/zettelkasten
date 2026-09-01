@@ -38,10 +38,10 @@ See [[Workflow]]. Short version: capture → process → link. Never skip link.
 ## Reading
 
 ```dataview
-TABLE WITHOUT ID file.link AS Source, author AS Author, status AS Status
+TABLE WITHOUT ID file.link AS Source, author AS Author, medium AS Medium, status AS Status
 FROM "01. Source Material"
 WHERE type = "literature"
-SORT status ASC
+SORT status ASC, medium ASC
 ```
 
 ## Health check

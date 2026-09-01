@@ -1,13 +1,15 @@
-# Obsidian per-machine state — churns every session, not content
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache
-.obsidian/plugins/*/main.js
-.obsidian/plugins/*/styles.css
-.obsidian/plugins/*/manifest.json
+# Obsidian per-machine state. Patterns need **/ because the vault is not at repo root.
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/cache
+
+# Plugin code is redownloadable. Plugin settings (data.json) stay versioned.
+**/.obsidian/plugins/*/main.js
+**/.obsidian/plugins/*/styles.css
+**/.obsidian/plugins/*/manifest.json
 
 # Vault trash
-.trash/
+**/.trash/
 
 # OS cruft
 .DS_Store

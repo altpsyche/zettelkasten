@@ -12,18 +12,21 @@ tags:
 The spine. What the series is, who it is for, and what order it teaches in.
 
 ## Premise
-<!-- one sentence. what is this series and why does it exist when other WGSL material already does. -->
+
+*One sentence. Why this exists when other WGSL material already does.*
 
 
 ## Who this is for
-<!-- be specific. "beginners" is not an audience. someone who has written JS but never a shader? someone coming from GLSL? those are different series. -->
+
+*"Beginners" is not an audience. Someone who writes JS but has never written a shader, and someone coming from GLSL, want different series.*
 
 
 ## What the reader can do at the end
 
 
 ## What I assume they already know
-<!-- the assumption you get wrong here is the one that loses readers in chapter 2 -->
+
+*The assumption you get wrong here is the one that loses readers in chapter 2.*
 
 
 ## Scope
@@ -31,7 +34,8 @@ The spine. What the series is, who it is for, and what order it teaches in.
 **In:**
 
 **Out:**
-<!-- naming what you refuse to cover is what keeps a series finishable -->
+
+*Naming what you refuse to cover is what keeps a series finishable.*
 
 ## Chapters
 
@@ -44,11 +48,18 @@ SORT chapter ASC
 New chapter: command palette, *Templater: Create new note from template*, pick Chapter Draft.
 
 ## Order decisions
-<!-- why this sequence and not another. the reasoning outlives the list. -->
+
+*The reasoning outlives the list.*
 - WebGPU first because WGSL cannot run without a host. Revisit if that turns out to front-load too much setup.
 
 ## Sources
-- [[WebGPU Fundamentals]]
+
+```dataview
+TABLE WITHOUT ID file.link AS Source, author AS Author, medium AS Medium, status AS Status
+FROM "01. Source Material"
+WHERE contains(file.outlinks, this.file.link)
+SORT status ASC
+```
 
 ## Open questions
 - 
