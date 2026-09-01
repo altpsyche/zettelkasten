@@ -18,12 +18,17 @@ Entry point. Bookmark this.
 | `03. Templates` | note scaffolds | rarely touched |
 | `04. Zettelkasten` | **the slip-box.** permanent notes, flat, ID-named | forever |
 | `05. Thought Logs` | daily notes | append-only |
+| `06. Projects` | drafts and scratch, one folder per project | dies when the project ships |
 
 `In the Chipset` = digital origin. `In the Flesh` = physical origin. Applies to `00` and `01` only.
 
 ## How this works
 
 See [[Workflow]]. Short version: capture → process → link. Never skip link.
+
+## Active projects
+
+- [[Series Outline|Shader Fundamentals with WGSL]]. Chapter 1 drafting.
 
 ## Indexes
 

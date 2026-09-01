@@ -89,6 +89,16 @@
       "width": 340,
       "height": 310,
       "color": "1"
+    },
+    {
+      "id": "proj",
+      "type": "text",
+      "text": "## Projects\n\n`06. Projects/<name>/`\n\nDrafts, outlines, API mechanics.\nScrappy allowed. No rules apply.\n\n**Dies when the project ships.**",
+      "x": 840,
+      "y": 320,
+      "width": 320,
+      "height": 190,
+      "color": "2"
     }
   ],
   "edges": [
@@ -163,6 +173,26 @@
       "toNode": "capture",
       "toSide": "left",
       "label": "the loop"
+    },
+    {
+      "id": "e11",
+      "fromNode": "think",
+      "fromSide": "bottom",
+      "toNode": "proj",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "notes arrange into drafts / stuck points become notes"
+    },
+    {
+      "id": "e12",
+      "fromNode": "read",
+      "fromSide": "bottom",
+      "toNode": "proj",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "toEnd": "arrow",
+      "label": "chapter cites source / backlink shows the use"
     }
   ]
 }

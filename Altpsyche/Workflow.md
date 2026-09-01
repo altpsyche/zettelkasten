@@ -69,6 +69,24 @@ Rule 2 says own words. These say which words.
 
 Applies to permanent notes above all. A permanent note is read by someone who has forgotten the context, and padding is what makes it unreadable.
 
+## Projects
+
+The slip-box is written for you and has no deadline. A project is written for readers and has both a deadline and a shape. Keep them apart.
+
+`06. Projects/<name>/` holds everything that dies when the project ships: outlines, drafts, API details, snippets, todo lists. Scrappy is fine there. None of the rules above apply.
+
+Two things cross the boundary.
+
+**Into the slip-box.** Working on a project makes you notice things that stay true after it ships. Where you got stuck. What a source assumed you already knew. Why one explanation order works and another loses people. Write those as permanent notes. They are usually the best notes you will ever write, because nobody else can observe your own confusion.
+
+**Out of the slip-box.** When you draft, pull the relevant permanent notes and arrange them. A draft is an arrangement, not a first writing. If the slip-box is empty at draft time, you are writing from scratch every time.
+
+Mechanics stay in the project folder. "requestAdapter returns null when there is no GPU" goes in `06. Projects`, never in `04. Zettelkasten`, because the API will change and the note will quietly become wrong.
+
+**Close the loop once, not twice.** A chapter links the sources and permanent notes it was built from. The source note does not link back, because Obsidian already shows that under backlinks. Hand-maintained reverse links go stale the first time you rename something.
+
+**A project ends.** Archive or delete the folder. Anything worth keeping already moved into the slip-box.
+
 ## Promoting a fleeting note
 
 1. Read it. Still interesting? If no → delete, no guilt.
