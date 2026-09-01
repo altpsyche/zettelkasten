@@ -1,1 +1,168 @@
-{}
+{
+  "nodes": [
+    {
+      "id": "home",
+      "type": "file",
+      "file": "Home.md",
+      "x": -420,
+      "y": -300,
+      "width": 320,
+      "height": 240,
+      "color": "6"
+    },
+    {
+      "id": "flow",
+      "type": "file",
+      "file": "Workflow.md",
+      "x": -420,
+      "y": 0,
+      "width": 320,
+      "height": 240,
+      "color": "6"
+    },
+    {
+      "id": "capture",
+      "type": "text",
+      "text": "## 1. Capture\n\n`00. Fleeting Notes`\n\nSeconds. No structure, no judgement.\nCtrl+N lands here by default.\n\n**Expires in a week.**",
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 190,
+      "color": "1"
+    },
+    {
+      "id": "read",
+      "type": "text",
+      "text": "## 2. Read\n\n`01. Source Material`\n\nOne note per source.\nClaims, quotes, and *my reading* kept apart.\n\nCopy-paste stops here.",
+      "x": 420,
+      "y": 0,
+      "width": 320,
+      "height": 190,
+      "color": "2"
+    },
+    {
+      "id": "think",
+      "type": "text",
+      "text": "## 3. Think\n\n`04. Zettelkasten`\n\nOne idea. Own words. Full sentences.\nID = `YYYYMMDDHHmm`, flat forever.\n\n**Two links minimum, at creation.**",
+      "x": 840,
+      "y": 0,
+      "width": 320,
+      "height": 190,
+      "color": "4"
+    },
+    {
+      "id": "find",
+      "type": "text",
+      "text": "## 4. Find\n\n`02. Indexes`\n\nBuild a MOC when a cluster grows\ntoo big to hold in your head.\n\nNot before.",
+      "x": 1260,
+      "y": 0,
+      "width": 320,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "log",
+      "type": "text",
+      "text": "## Daily\n\n`05. Thought Logs`\n\nWhat got captured, what got processed.\nMakes the backlog visible.",
+      "x": 210,
+      "y": 300,
+      "width": 320,
+      "height": 190,
+      "color": "3"
+    },
+    {
+      "id": "tpl",
+      "type": "text",
+      "text": "## Scaffolds\n\n`03. Templates`\n\nFleeting \u00b7 Literature \u00b7 Permanent \u00b7 Daily Log\n\nApplied automatically by\n*Create new unique note*.",
+      "x": 630,
+      "y": -300,
+      "width": 320,
+      "height": 190,
+      "color": "3"
+    },
+    {
+      "id": "rules",
+      "type": "text",
+      "text": "## The rules that matter\n\n**Two links, with reasons.**\nA bare `[[link]]` wastes the link.\nThe reason is the knowledge.\n\n**Flat slip-box.**\nNo subfolders in `04`. Ever.\nStructure lives in links, not directories.\n\n**Write for five-years-from-now**, not for today\nwith the source still open.",
+      "x": 1680,
+      "y": -60,
+      "width": 340,
+      "height": 310,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "capture",
+      "fromSide": "right",
+      "toNode": "read",
+      "toSide": "left",
+      "label": "worth keeping"
+    },
+    {
+      "id": "e2",
+      "fromNode": "read",
+      "fromSide": "right",
+      "toNode": "think",
+      "toSide": "left",
+      "label": "in my own words"
+    },
+    {
+      "id": "e3",
+      "fromNode": "think",
+      "fromSide": "right",
+      "toNode": "find",
+      "toSide": "left",
+      "label": "cluster got big"
+    },
+    {
+      "id": "e4",
+      "fromNode": "think",
+      "fromSide": "right",
+      "toNode": "rules",
+      "toSide": "left",
+      "label": "obeys"
+    },
+    {
+      "id": "e5",
+      "fromNode": "capture",
+      "fromSide": "bottom",
+      "toNode": "log",
+      "toSide": "top",
+      "label": "logged"
+    },
+    {
+      "id": "e6",
+      "fromNode": "tpl",
+      "fromSide": "right",
+      "toNode": "think",
+      "toSide": "top",
+      "label": "scaffolds"
+    },
+    {
+      "id": "e7",
+      "fromNode": "tpl",
+      "fromSide": "left",
+      "toNode": "read",
+      "toSide": "top",
+      "label": "scaffolds"
+    },
+    {
+      "id": "e8",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "flow",
+      "toSide": "top",
+      "label": "read this first"
+    },
+    {
+      "id": "e9",
+      "fromNode": "flow",
+      "fromSide": "right",
+      "toNode": "capture",
+      "toSide": "left",
+      "label": "the loop"
+    }
+  ]
+}

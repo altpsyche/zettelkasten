@@ -1,0 +1,12 @@
+# Obsidian per-machine state — churns every session, not content
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Vault trash
+.trash/
+
+# OS cruft
+.DS_Store
+Thumbs.db
