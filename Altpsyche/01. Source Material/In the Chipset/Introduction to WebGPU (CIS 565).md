@@ -21,9 +21,7 @@ Guest lecture to a university GPU programming course. Jones edits the WebGPU spe
 **Author:** Brandon Jones (Toji)
 **Link:** https://www.youtube.com/watch?v=Hm2_bH_8j3k
 
-## Raw
-
-Dump while reading. No structure, no full sentences, timestamps for video. Empty this into the sections below, then delete the heading.
+## Rough Notes
 
 - 
 

@@ -30,7 +30,7 @@ find     ->  02. Indexes            (MOC when a cluster gets too big to hold in 
 
 **5. A literature note stays complete.** Claims hold what the author argues. Detail that is not a claim, such as timelines, numbers and terminology, goes in a Background section rather than being cut. Deleting detail from a source note means going back to the source to get it again, which costs more than the space it saved.
 
-**6. Read into Raw, not into Claims.** Dump raw points into the literature note's Raw section while reading. Sort them afterwards. Trying to file a point correctly mid-read stops the reading.
+**6. Read into Rough Notes, not into Claims.** Dump points there while reading, sort them afterwards. Filing a point correctly mid-read stops the reading.
 
 **7. Fleeting notes expire.** Process within a week or delete. A fleeting note you keep "just in case" is clutter you will never read.
 

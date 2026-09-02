@@ -16,9 +16,7 @@ tags:
 **Author:** 
 **Link:** 
 
-## Raw
-
-Dump while reading. No structure, no full sentences, timestamps for video. Empty this into the sections below, then delete the heading.
+## Rough Notes
 
 - 
 

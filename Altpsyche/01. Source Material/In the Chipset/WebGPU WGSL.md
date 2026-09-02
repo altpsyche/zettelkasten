@@ -19,9 +19,7 @@ tags:
 
 WGSL language reference. Types, vectors, matrices, declarations, conversions, flow control, operators, builtin attributes for vertex, fragment and compute. Same site as [[WebGPU Fundamentals]]. No byline on the page, attributed by site.
 
-## Raw
-
-Dump while reading. No structure, no full sentences, timestamps for video. Empty this into the sections below, then delete the heading.
+## Rough Notes
 
 - 
 
