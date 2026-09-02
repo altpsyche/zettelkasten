@@ -7,7 +7,7 @@ author: Brandon Jones (Toji)
 channel: Brandon Jones (Toji)
 url: https://www.youtube.com/watch?v=Hm2_bH_8j3k
 published: 2022
-status: unread
+status: reading
 tags:
   - source
   - webgpu
@@ -23,7 +23,26 @@ Guest lecture to a university GPU programming course. Jones edits the WebGPU spe
 
 ## Rough Notes
 
-- 
+- New Features in WebGPU that WebGL doesnt have
+	- Compute Shaders
+	- Indirect drawing
+	- Render Bundles
+	- External textures (for more efficient video)
+	- More flexible Canvas integration
+	- Improved debugging features
+	- No global state!
+- WebGPU is not just a web API!
+	- Browsers
+		- JavaScript/TypeScript
+		- WASM
+	- Node
+	- Native
+		- C, C++ via Google’s [Dawn](https://dawn.googlesource.com/dawn/+/refs/heads/main/README.md) Library
+		- Rust via Mozilla’s [wgpu](https://wgpu.rs/) Library
+	- Community-built bindings for others!
+
+## Background
+
 
 ## Claims
 - 
