@@ -18,6 +18,12 @@ tags:
 **Author:** Suboptimal Engineer
 **Link:** https://www.youtube.com/watch?v=oIur9NATg-I
 
+## Raw
+
+Dump while reading. No structure, no full sentences, timestamps for video. Empty this into the sections below, then delete the heading.
+
+- 
+
 ## Background
 
 | When | What happened | Why it matters |

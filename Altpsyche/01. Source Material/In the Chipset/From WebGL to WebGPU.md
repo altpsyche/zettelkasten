@@ -21,6 +21,12 @@ tags:
 
 Compares WebGL and WebGPU. Stateless pipelines against WebGL's global state model, async design, compute shaders, storage buffers.
 
+## Raw
+
+Dump while reading. No structure, no full sentences, timestamps for video. Empty this into the sections below, then delete the heading.
+
+- 
+
 ## Claims
 - 
 

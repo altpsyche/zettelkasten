@@ -17,6 +17,12 @@ tags:
 **Author:** Gregg Tavares
 **Link:** https://webgpufundamentals.org/webgpu/lessons/webgpu-fundamentals.html
 
+## Raw
+
+Dump while reading. No structure, no full sentences, timestamps for video. Empty this into the sections below, then delete the heading.
+
+- 
+
 ## Claims
 - 
 

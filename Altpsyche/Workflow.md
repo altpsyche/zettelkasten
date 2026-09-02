@@ -30,11 +30,13 @@ find     ->  02. Indexes            (MOC when a cluster gets too big to hold in 
 
 **5. A literature note stays complete.** Claims hold what the author argues. Detail that is not a claim, such as timelines, numbers and terminology, goes in a Background section rather than being cut. Deleting detail from a source note means going back to the source to get it again, which costs more than the space it saved.
 
-**6. Fleeting notes expire.** Process within a week or delete. A fleeting note you keep "just in case" is clutter you will never read.
+**6. Read into Raw, not into Claims.** Dump raw points into the literature note's Raw section while reading. Sort them afterwards. Trying to file a point correctly mid-read stops the reading.
 
-**7. The slip-box stays flat.** Never make subfolders in `04. Zettelkasten`. Structure comes from links and MOCs, not from directories.
+**7. Fleeting notes expire.** Process within a week or delete. A fleeting note you keep "just in case" is clutter you will never read.
 
-**8. Write the note you would need in five years,** not the one that makes sense today with the source still open.
+**8. The slip-box stays flat.** Never make subfolders in `04. Zettelkasten`. Structure comes from links and MOCs, not from directories.
+
+**9. Write the note you would need in five years,** not the one that makes sense today with the source still open.
 
 ## Mechanics
 
