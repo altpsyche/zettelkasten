@@ -52,12 +52,12 @@ Planned order. Each line is one chapter. Numbers move as chapters get written.
 
 No maths chapter. Each chapter introduces only the maths its own technique needs, so an artwork is never more than one chapter away.
 
-**Foundations**
+**The Opening**
 1. WGSL on WebGPU. Includes what GLSL readers need to remap.
 2. The pixel and its coordinates
 3. Shaping functions. Ends by plotting `length(uv)` as a radial gradient, without naming it.
 
-**Distance fields**
+**Shape and Space**
 4. Signed distance: the field, one shape, a clean edge. Names the gradient from chapter 3
 5. Combining: union, subtraction, smooth minimum
 6. Bending space: transform, repeat, warp
