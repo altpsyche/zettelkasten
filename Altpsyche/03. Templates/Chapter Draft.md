@@ -13,6 +13,10 @@ tags:
 
 Part of [[Series Outline]].
 
+## Description
+
+
+
 ## The one new idea
 <!-- one sentence. copy it into `idea:` above. -->
 <% tp.file.cursor(1) %>
@@ -53,3 +57,7 @@ Part of [[Series Outline]].
 
 ## Draft
 
+
+## Summary
+
+- 
